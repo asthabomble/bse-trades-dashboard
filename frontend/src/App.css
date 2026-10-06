@@ -4,9 +4,9 @@
 
 body {
   margin: 0;
-  font-family: Inter, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   background: #f5f7fb;
-  color: #172033;
+  color: #111827;
 }
 
 .app {
@@ -24,15 +24,18 @@ body {
 .title h1 {
   margin: 0;
   font-size: 32px;
+  font-weight: 700;
+  color: #111827;
 }
 
 .title p {
   margin: 6px 0 0;
-  color: #687386;
+  color: #4b5563;
+  font-size: 16px;
 }
 
 .pull-button {
-  background: #1f6feb;
+  background: #2563eb;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -42,7 +45,7 @@ body {
 }
 
 .pull-button:hover {
-  background: #185abc;
+  background: #1d4ed8;
 }
 
 .pull-button:disabled {
@@ -52,16 +55,17 @@ body {
 
 .status {
   background: white;
+  color: #111827;
   border-radius: 10px;
   padding: 14px 18px;
   margin-bottom: 20px;
-  border: 1px solid #e1e6ef;
+  border: 1px solid #dbe2ea;
 }
 
 .table-container {
   background: white;
   border-radius: 12px;
-  border: 1px solid #e1e6ef;
+  border: 1px solid #dbe2ea;
   overflow: auto;
 }
 
@@ -72,13 +76,14 @@ table {
 
 th {
   background: #f8fafc;
-  color: #596579;
+  color: #374151;
   text-align: left;
   padding: 14px 16px;
   font-size: 13px;
 }
 
 td {
+  color: #111827;
   padding: 13px 16px;
   border-top: 1px solid #edf0f5;
   font-size: 14px;
@@ -90,8 +95,10 @@ tbody tr:hover {
 
 .symbol {
   font-weight: 600;
+  color: #111827;
 }
 
 .price {
   font-weight: 600;
+  color: #111827;
 }
